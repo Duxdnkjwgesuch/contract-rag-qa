@@ -1,0 +1,33 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data and logs
+app.log
+*.log
+data/
+upload/
+uploads/
+vector_db/
+
+# Local model files (download them again when setting up the project)
+models/
+
+# Editor, OS and tool files
+.DS_Store
+.codefree/
+:memory:.ses
